@@ -278,6 +278,7 @@ main {
 .gallery-imagecontainer {
   width: 400px;
   height: 250px;
+  margin-bottom: 6px;
 }
 .gallery-image {
   width: 100%;
@@ -439,6 +440,7 @@ select {
   width: 100%;
   font-family: inherit;
   border-color: #6a6a6a;
+  background-color: transparent;
 }
 
 .findspace-list {
@@ -499,7 +501,7 @@ select {
 .articles-card {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .articles-imagecontainer {
@@ -882,9 +884,18 @@ footer {
     padding: 0px 10px;
   }
 
+  .newsletter-emailcontainer > input {
+    width: 100%;
+  }
+
   /* footer */
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
     place-items: start;
+  }
+
+  .footer-bottom {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
