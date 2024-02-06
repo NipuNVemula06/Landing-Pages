@@ -1,11 +1,11 @@
 @font-face {
   font-family: neuemachina;
-  src: url("/Landing-page-One/fonts/NeueMachina-Regular.otf");
+  src: url("./fonts/NeueMachina-Regular.otf");
 }
 
 @font-face {
   font-family: neuebold;
-  src: url("/Landing-page-One/fonts/NeueMachina-Ultrabold.otf");
+  src: url("./fonts/NeueMachina-Ultrabold.otf");
 }
 
 :root {
