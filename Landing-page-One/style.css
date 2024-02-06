@@ -25,6 +25,9 @@ body {
   height: 100%;
   font-family: neuemachina;
   background: #ffffff;
+}
+
+#main {
   padding: 10px 15px;
 }
 

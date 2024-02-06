@@ -6,6 +6,10 @@
     <title>Landing Page</title>
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
@@ -14,415 +18,414 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <a href="#" class="logo">Mon_space</a>
-      <nav>
-        <a href="#">Browse Space</a>
-        <a href="#">About Us</a>
-        <a href="#">Our Projects</a>
-      </nav>
-      <button class="signup-button">
-        Sign Up
-        <i class="fa-solid fa-arrow-right"></i>
-      </button>
-    </header>
-    <main>
-      <section>
-        <h1 class="heading">
-          Find a space for <br />
-          your vision
-        </h1>
-        <div class="tag">
-          <p class="lefttag">
-            Mon_space inspired by<br />
-            our natural world
-          </p>
-          <p class="righttag">
-            Beautiful acoustics <br />
-            for spaces
-          </p>
-        </div>
-        <div class="image-container">
-          <img
-            src="/Landing-page-One/assets/home.jpg"
-            alt="hero"
-            class="hero-image"
-          />
-          <div class="details-container">
-            <div class="details-leftcontainer">
-              <div class="details-inputcontainer">
-                <label>What are you planning?</label>
-                <input type="text" placeholder="Enter your activity" />
+    <div id="main">
+      <header>
+        <a href="#" class="logo">Mon_space</a>
+        <nav>
+          <a href="#">Browse Space</a>
+          <a href="#">About Us</a>
+          <a href="#">Our Projects</a>
+        </nav>
+        <button class="signup-button">
+          Sign Up
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </header>
+      <main>
+        <section>
+          <h1 class="heading">
+            Find a space for <br />
+            your vision
+          </h1>
+          <div class="tag">
+            <p class="lefttag">
+              Mon_space inspired by<br />
+              our natural world
+            </p>
+            <p class="righttag">
+              Beautiful acoustics <br />
+              for spaces
+            </p>
+          </div>
+          <div class="image-container">
+            <img src="./assets/home.jpg" alt="hero" class="hero-image" />
+            <div class="details-container">
+              <div class="details-leftcontainer">
+                <div class="details-inputcontainer">
+                  <label>What are you planning?</label>
+                  <input type="text" placeholder="Enter your activity" />
+                </div>
+                <div class="details-inputcontainer">
+                  <label for="">Where?</label>
+                  <input type="text" placeholder="Enter a city or address" />
+                </div>
+                <div class="details-inputcontainer">
+                  <label for="">When?</label>
+                  <input type="text" placeholder="Enter your time" />
+                </div>
+                <button class="details-searchbutton">
+                  Search
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
               </div>
-              <div class="details-inputcontainer">
-                <label for="">Where?</label>
-                <input type="text" placeholder="Enter a city or address" />
+              <div class="details-rightcontainer">
+                <div class="horizontal-line"></div>
+                <div class="details-rightcontent">
+                  <span class="details-contenttext">
+                    Explore our new <br />
+                    complementary space
+                  </span>
+                  <span class="details-arrowcontainer">
+                    <img
+                      src="/Landing-page-One/assets/right-up.png"
+                      alt="right-up"
+                      width="20"
+                      height="20"
+                    />
+                  </span>
+                </div>
               </div>
-              <div class="details-inputcontainer">
-                <label for="">When?</label>
-                <input type="text" placeholder="Enter your time" />
-              </div>
-              <button class="details-searchbutton">
-                Search
-                <i class="fa-solid fa-arrow-right"></i>
-              </button>
             </div>
-            <div class="details-rightcontainer">
-              <div class="horizontal-line"></div>
-              <div class="details-rightcontent">
-                <span class="details-contenttext">
-                  Explore our new <br />
-                  complementary space
-                </span>
-                <span class="details-arrowcontainer">
+          </div>
+        </section>
+        <section class="ourspace">
+          <div class="ourspace-contentcontainer">
+            <h2 class="ourspace-heading">why choose our space</h2>
+            <div class="ourspace-points">
+              <span class="ourspace-point">
+                <i class="fa-solid fa-palette"></i>
+                Custom Designed
+              </span>
+              <span class="ourspace-point">
+                <i class="fa-regular fa-face-smile"></i>
+                Zero hassle process
+              </span>
+              <span class="ourspace-point">
+                <i class="fa-regular fa-building"></i>
+                Best in market value
+              </span>
+              <span class="ourspace-point">
+                <i class="fa-solid fa-users"></i>
+                Vetted Contractors
+              </span>
+            </div>
+            <p class="ourspace-text">
+              A workspace is a technology framework that brings together all the
+              applications,tools and resources needed to get work done and
+              collaborate securely,personalized for individual in a digital
+              world. A digital workspace is a integrated technology framework
+            </p>
+          </div>
+          <div class="ourspace-imagecontainer">
+            <img
+              src="./assets/image6.jpg"
+              alt="ourspace-image"
+              class="ourspace-image"
+            />
+          </div>
+        </section>
+        <section class="gallery">
+          <h1 class="gallery-heading">space galleries</h1>
+          <div class="gallery-container">
+            <div class="gallery-leftcontainer">
+              <div class="gallery-card">
+                <div class="gallery-imagecontainer">
                   <img
-                    src="/Landing-page-One/assets/right-up.png"
-                    alt="right-up"
-                    width="20"
-                    height="20"
+                    class="gallery-image"
+                    src="./assets/image2.jpg"
+                    alt="image"
                   />
-                </span>
+                </div>
+                <p class="gallery-address">2720 Rogers Ave, Fort Smith</p>
+                <p class="gallery-location">Arizona, United States</p>
+              </div>
+              <div class="gallery-card">
+                <div class="gallery-imagecontainer">
+                  <img
+                    class="gallery-image"
+                    src="./assets/image3.jpg"
+                    alt="image"
+                  />
+                </div>
+                <p class="gallery-address">300 2nd St N,Jacksonville Bch</p>
+                <p class="gallery-location">Florida, United States</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="ourspace">
-        <div class="ourspace-contentcontainer">
-          <h2 class="ourspace-heading">why choose our space</h2>
-          <div class="ourspace-points">
-            <span class="ourspace-point">
-              <i class="fa-solid fa-palette"></i>
-              Custom Designed
-            </span>
-            <span class="ourspace-point">
-              <i class="fa-regular fa-face-smile"></i>
-              Zero hassle process
-            </span>
-            <span class="ourspace-point">
-              <i class="fa-regular fa-building"></i>
-              Best in market value
-            </span>
-            <span class="ourspace-point">
-              <i class="fa-solid fa-users"></i>
-              Vetted Contractors
-            </span>
-          </div>
-          <p class="ourspace-text">
-            A workspace is a technology framework that brings together all the
-            applications,tools and resources needed to get work done and
-            collaborate securely,personalized for individual in a digital world.
-            A digital workspace is a integrated technology framework
-          </p>
-        </div>
-        <div class="ourspace-imagecontainer">
-          <img
-            src="/Landing-page-One/assets/image6.jpg"
-            alt="ourspace-image"
-            class="ourspace-image"
-          />
-        </div>
-      </section>
-      <section class="gallery">
-        <h1 class="gallery-heading">space galleries</h1>
-        <div class="gallery-container">
-          <div class="gallery-leftcontainer">
-            <div class="gallery-card">
-              <div class="gallery-imagecontainer">
+            <div class="gallery-mainimage">
+              <div class="gallery-mainimagecontainer">
                 <img
                   class="gallery-image"
-                  src="/Landing-page-One/assets/image2.jpg"
+                  src="./assets/image1.jpg"
                   alt="image"
                 />
               </div>
-              <p class="gallery-address">2720 Rogers Ave, Fort Smith</p>
-              <p class="gallery-location">Arizona, United States</p>
+              <p class="gallery-address">9601 St Charles Rock Rd, St John</p>
+              <p class="gallery-location">Nebarska, United States</p>
             </div>
-            <div class="gallery-card">
-              <div class="gallery-imagecontainer">
-                <img
-                  class="gallery-image"
-                  src="/Landing-page-One/assets/image3.jpg"
-                  alt="image"
-                />
+            <div class="gallery-rightcontainer">
+              <div class="gallery-card">
+                <div class="gallery-imagecontainer">
+                  <img
+                    class="gallery-image"
+                    src="./assets/image7.jpg"
+                    alt="image"
+                  />
+                </div>
+                <p class="gallery-address">1830 E Parks Hwy, Wasilla</p>
+                <p class="gallery-location">Washington, United States</p>
               </div>
-              <p class="gallery-address">300 2nd St N,Jacksonville Bch</p>
-              <p class="gallery-location">Florida, United States</p>
-            </div>
-          </div>
-          <div class="gallery-mainimage">
-            <div class="gallery-mainimagecontainer">
-              <img
-                class="gallery-image"
-                src="/Landing-page-One/assets/image1.jpg"
-                alt="image"
-              />
-            </div>
-            <p class="gallery-address">9601 St Charles Rock Rd, St John</p>
-            <p class="gallery-location">Nebarska, United States</p>
-          </div>
-          <div class="gallery-rightcontainer">
-            <div class="gallery-card">
-              <div class="gallery-imagecontainer">
-                <img
-                  class="gallery-image"
-                  src="/Landing-page-One/assets/image7.jpg"
-                  alt="image"
-                />
+              <div class="gallery-card">
+                <div class="gallery-imagecontainer">
+                  <img
+                    class="gallery-image"
+                    src="./assets/image5.jpg"
+                    alt="image"
+                  />
+                </div>
+                <p class="gallery-address">2011 Cox eve NW, Huntsville</p>
+                <p class="gallery-location">Alaska, United States</p>
               </div>
-              <p class="gallery-address">1830 E Parks Hwy, Wasilla</p>
-              <p class="gallery-location">Washington, United States</p>
-            </div>
-            <div class="gallery-card">
-              <div class="gallery-imagecontainer">
-                <img
-                  class="gallery-image"
-                  src="/Landing-page-One/assets/image5.jpg"
-                  alt="image"
-                />
-              </div>
-              <p class="gallery-address">2011 Cox eve NW, Huntsville</p>
-              <p class="gallery-location">Alaska, United States</p>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="features">
-        <h1 class="features-heading">
-          Extraordinary<br />
-          Features
-        </h1>
-        <div class="features-list">
-          <div class="features-card">
-            <i class="icon fa-regular fa-map"></i>
-            <div class="features-content">
-              <h2 class="features-title">
-                Feel at space <br />
-                anywhere
-              </h2>
-              <p class="features-text">
-                Each home comes with everything you need<br />
-                to quicky settle in. Come home with space <br />
-                that leaves no details overlooked.
-              </p>
-            </div>
-            <a href="#" class="features-learnmorebutton">
-              Learn More
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
-          <div class="features-card">
-            <i class="icon1 fa-regular fa-building"></i>
-            <div class="features-content">
-              <h2 class="features-title">
-                Lets go of renting<br />
-                restrictions
-              </h2>
-              <p class="features-text">
-                Stay for a month, or live with us for years. You<br />
-                can transfer homes throughout the landing <br />
-                network with just 2 week notice.
-              </p>
-            </div>
-            <a href="#" class="features-learnmorebutton">
-              Learn More
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
-          <div class="features-card">
-            <i class="icon2 fa-solid fa-wifi"></i>
-            <div class="features-content">
-              <h2 class="features-title">
-                Fast, easy and<br />
-                everything online
-              </h2>
-              <p class="features-text">
-                Our easy online booking means you<br />
-                can have your next home in minutes,without <br />
-                nightmarish paperwork
-              </p>
-            </div>
-            <a href="#" class="features-learnmorebutton">
-              Learn More
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="findspace">
-        <div class="findspace-content">
-          <h1 class="findspace-title">
-            find 300+
-            <br />
-            space
+        </section>
+        <section class="features">
+          <h1 class="features-heading">
+            Extraordinary<br />
+            Features
           </h1>
-          <p>
-            You can submit a request for a professional development
-            <br />
-            workshop through our dedicated portal,accessible
-          </p>
-          <div class="findspace-selectcontainer">
-            <select>
-              <option value="">Select Country</option>
-            </select>
-            <select>
-              <option value="">Select City</option>
-            </select>
-          </div>
-          <button class="findspace-button">
-            Search
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
-        <div class="findspace-list">
-          <div class="findspace-card">
-            <div class="findspace-imagecontainer">
-              <img src="/Landing-page-One/assets/image11.jpg" alt="image" />
+          <div class="features-list">
+            <div class="features-card">
+              <i class="icon fa-regular fa-map"></i>
+              <div class="features-content">
+                <h2 class="features-title">
+                  Feel at space <br />
+                  anywhere
+                </h2>
+                <p class="features-text">
+                  Each home comes with everything you need<br />
+                  to quicky settle in. Come home with space <br />
+                  that leaves no details overlooked.
+                </p>
+              </div>
+              <a href="#" class="features-learnmorebutton">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
             </div>
-            <p>. New York City</p>
-            <h4>
-              ADU Adds space for hosting
+            <div class="features-card">
+              <i class="icon1 fa-regular fa-building"></i>
+              <div class="features-content">
+                <h2 class="features-title">
+                  Lets go of renting<br />
+                  restrictions
+                </h2>
+                <p class="features-text">
+                  Stay for a month, or live with us for years. You<br />
+                  can transfer homes throughout the landing <br />
+                  network with just 2 week notice.
+                </p>
+              </div>
+              <a href="#" class="features-learnmorebutton">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="features-card">
+              <i class="icon2 fa-solid fa-wifi"></i>
+              <div class="features-content">
+                <h2 class="features-title">
+                  Fast, easy and<br />
+                  everything online
+                </h2>
+                <p class="features-text">
+                  Our easy online booking means you<br />
+                  can have your next home in minutes,without <br />
+                  nightmarish paperwork
+                </p>
+              </div>
+              <a href="#" class="features-learnmorebutton">
+                Learn More
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="findspace">
+          <div class="findspace-content">
+            <h1 class="findspace-title">
+              find 300+
               <br />
-              and working
-            </h4>
-          </div>
-          <div class="findspace-card">
-            <div class="findspace-imagecontainer">
-              <img src="/Landing-page-One/assets/image12.jpg" alt="image" />
-            </div>
-            <p>. New Orleans</p>
-            <h4>
-              Cozy scandinavina inspired
+              space
+            </h1>
+            <p>
+              You can submit a request for a professional development
               <br />
-              douvles workspace
-            </h4>
-          </div>
-        </div>
-      </section>
-      <section class="articles">
-        <h1 class="articles-heading">news & articles</h1>
-        <div class="articles-listcontainer">
-          <div class="articles-card">
-            <div class="articles-imagecontainer">
-              <img
-                src="/Landing-page-One/assets/image4.jpg"
-                alt="image"
-                class="articles-image"
-              />
-            </div>
-            <p class="articles-date">Interviews - Nov 24, 2023</p>
-            <p class="articles-title">
-              Californian essentials with<br />
-              Jillian Rocco
+              workshop through our dedicated portal,accessible
             </p>
-          </div>
-          <div class="articles-card">
-            <div class="articles-imagecontainer">
-              <img
-                src="/Landing-page-One/assets/image8.jpg"
-                alt="image"
-                class="articles-image"
-              />
+            <div class="findspace-selectcontainer">
+              <select>
+                <option value="">Select Country</option>
+              </select>
+              <select>
+                <option value="">Select City</option>
+              </select>
             </div>
-            <p class="articles-date">Community - Dec 11, 2023</p>
-            <p class="articles-title">
-              Desert island essentials with<br />
-              Rachel Oslam
-            </p>
-          </div>
-          <div class="articles-card">
-            <div class="articles-imagecontainer">
-              <img
-                src="/Landing-page-One/assets/image9.jpg"
-                alt="image"
-                class="articles-image"
-              />
-            </div>
-            <p class="articles-date">Flex space - Jun 04, 2023</p>
-            <p class="articles-title">
-              How Autex Acoustics is<br />
-              innovating sustainable.
-            </p>
-          </div>
-          <div class="articles-card">
-            <div class="articles-imagecontainer">
-              <img
-                src="/Landing-page-One/assets/image10.jpg"
-                alt="image"
-                class="articles-image"
-              />
-            </div>
-            <p class="articles-date">News article - Sep 10, 2023</p>
-            <p class="articles-title">
-              International Day of Education<br />
-              with Amy Leong
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="newsletter">
-        <div class="newsletter-content">
-          <h1 class="newsletter-heading">
-            subscribe our <br />
-            newsletter
-          </h1>
-          <p>
-            Join us in shaping the humanity as we evolve into an interplanetry
-            species.
-          </p>
-          <div class="newsletter-emailcontainer">
-            <input type="email" placeholder="Enter your email" />
-            <button class="newsletter-subscribebutton">
-              subscribe
+            <button class="findspace-button">
+              Search
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
+          <div class="findspace-list">
+            <div class="findspace-card">
+              <div class="findspace-imagecontainer">
+                <img src="./assets/image11.jpg" alt="image" />
+              </div>
+              <p>. New York City</p>
+              <h4>
+                ADU Adds space for hosting
+                <br />
+                and working
+              </h4>
+            </div>
+            <div class="findspace-card">
+              <div class="findspace-imagecontainer">
+                <img src="./assets/image12.jpg" alt="image" />
+              </div>
+              <p>. New Orleans</p>
+              <h4>
+                Cozy scandinavina inspired
+                <br />
+                douvles workspace
+              </h4>
+            </div>
+          </div>
+        </section>
+        <section class="articles">
+          <h1 class="articles-heading">news & articles</h1>
+          <div class="articles-listcontainer">
+            <div class="articles-card">
+              <div class="articles-imagecontainer">
+                <img
+                  src="./assets/image4.jpg"
+                  alt="image"
+                  class="articles-image"
+                />
+              </div>
+              <p class="articles-date">Interviews - Nov 24, 2023</p>
+              <p class="articles-title">
+                Californian essentials with<br />
+                Jillian Rocco
+              </p>
+            </div>
+            <div class="articles-card">
+              <div class="articles-imagecontainer">
+                <img
+                  src="./assets/image8.jpg"
+                  alt="image"
+                  class="articles-image"
+                />
+              </div>
+              <p class="articles-date">Community - Dec 11, 2023</p>
+              <p class="articles-title">
+                Desert island essentials with<br />
+                Rachel Oslam
+              </p>
+            </div>
+            <div class="articles-card">
+              <div class="articles-imagecontainer">
+                <img
+                  src="./assets/image9.jpg"
+                  alt="image"
+                  class="articles-image"
+                />
+              </div>
+              <p class="articles-date">Flex space - Jun 04, 2023</p>
+              <p class="articles-title">
+                How Autex Acoustics is<br />
+                innovating sustainable.
+              </p>
+            </div>
+            <div class="articles-card">
+              <div class="articles-imagecontainer">
+                <img
+                  src="./assets/image10.jpg"
+                  alt="image"
+                  class="articles-image"
+                />
+              </div>
+              <p class="articles-date">News article - Sep 10, 2023</p>
+              <p class="articles-title">
+                International Day of Education<br />
+                with Amy Leong
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="newsletter">
+          <div class="newsletter-content">
+            <h1 class="newsletter-heading">
+              subscribe our <br />
+              newsletter
+            </h1>
+            <p>
+              Join us in shaping the humanity as we evolve into an interplanetry
+              species.
+            </p>
+            <div class="newsletter-emailcontainer">
+              <input type="email" placeholder="Enter your email" />
+              <button class="newsletter-subscribebutton">
+                subscribe
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="newsletter-imagecontainer">
+            <img src="./assets/image13.jpg" alt="" />
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-top">
+          <div class="footer-items">
+            <h3>Mon_space</h3>
+            <p>
+              A workspace is a technology framework that brings together all the
+              applications,tools and resources needed to get work done
+            </p>
+          </div>
+          <div class="footer-items">
+            <span>About Us</span>
+            <a href="#">Our Projects</a>
+            <a href="#">Products</a>
+            <a href="#">Resources</a>
+          </div>
+          <div class="footer-items">
+            <span>Company</span>
+            <a href="#">Compare plans</a>
+            <a href="#">Resources</a>
+            <a href="#">Partners</a>
+          </div>
+          <div class="footer-items">
+            <span>Legal</span>
+            <a href="#">Terms and service</a>
+            <a href="#">Privacy and policy</a>
+            <a href="#">Request Beta</a>
+          </div>
+          <div class="footer-items">
+            <span>Socials</span>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+          </div>
         </div>
-        <div class="newsletter-imagecontainer">
-          <img src="/Landing-page-One/assets/image13.jpg" alt="" />
+        <div class="footer-bottom">
+          <p>Accesibilty</p>
+          <p>All rights reserved.</p>
+          <p>Legal Informations</p>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-top">
-        <div class="footer-items">
-          <h3>Mon_space</h3>
-          <p>
-            A workspace is a technology framework that brings together all the
-            applications,tools and resources needed to get work done
-          </p>
-        </div>
-        <div class="footer-items">
-          <span>About Us</span>
-          <a href="#">Our Projects</a>
-          <a href="#">Products</a>
-          <a href="#">Resources</a>
-        </div>
-        <div class="footer-items">
-          <span>Company</span>
-          <a href="#">Compare plans</a>
-          <a href="#">Resources</a>
-          <a href="#">Partners</a>
-        </div>
-        <div class="footer-items">
-          <span>Legal</span>
-          <a href="#">Terms and service</a>
-          <a href="#">Privacy and policy</a>
-          <a href="#">Request Beta</a>
-        </div>
-        <div class="footer-items">
-          <span>Socials</span>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>Accesibilty</p>
-        <p>All rights reserved.</p>
-        <p>Legal Informations</p>
-      </div>
-    </footer>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
